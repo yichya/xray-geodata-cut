@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/xtls/xray-core v1.5.7
-	google.golang.org/protobuf v1.28.0
+	google.golang.org/protobuf v1.33.0
 )
 
 require (
