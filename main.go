@@ -31,7 +31,7 @@ func main() {
 			}
 			if *show {
 				fmt.Println(geoip.GetGeoIPCodes(gin))
-			} else if search != nil {
+			} else if *search != "" {
 				for _, x := range geoip.Search(gin, *search) {
 					fmt.Println(x)
 				}	
@@ -51,7 +51,7 @@ func main() {
 			}
 			if *show {
 				fmt.Println(geosite.GetGeoSiteCodes(gin))
-			} else if search != nil {
+			} else if *search != "" {
 				for _, x := range geosite.Search(gin, *search) {
 					fmt.Println(x)
 				}
