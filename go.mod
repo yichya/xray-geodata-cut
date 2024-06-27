@@ -1,15 +1,15 @@
 module github.com/yichya/xray-geodata-cut
 
-go 1.18
+go 1.22
 
 require (
-	github.com/xtls/xray-core v1.5.7
-	google.golang.org/protobuf v1.33.0
+	github.com/xtls/xray-core v1.8.16
+	google.golang.org/protobuf v1.34.2
 )
 
 require (
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/pires/go-proxyproto v0.6.2 // indirect
-	go.starlark.net v0.0.0-20220328144851-d1966c6b9fcd // indirect
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
+	github.com/pires/go-proxyproto v0.7.0 // indirect
+	github.com/sagernet/sing v0.4.1 // indirect
+	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
+	golang.org/x/sys v0.21.0 // indirect
 )

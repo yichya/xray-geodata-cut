@@ -1,11 +1,12 @@
 package geoip
 
 import (
+	"os"
+	"strings"
+
 	"github.com/xtls/xray-core/app/router"
 	"github.com/xtls/xray-core/common/net"
 	"google.golang.org/protobuf/proto"
-	"os"
-	"strings"
 )
 
 func LoadGeoIP(fn string) (*router.GeoIPList, error) {

@@ -1,10 +1,11 @@
 package geosite
 
 import (
-	"github.com/xtls/xray-core/app/router"
-	"google.golang.org/protobuf/proto"
 	"os"
 	"strings"
+
+	"github.com/xtls/xray-core/app/router"
+	"google.golang.org/protobuf/proto"
 )
 
 func LoadGeoSite(fn string) (*router.GeoSiteList, error) {
